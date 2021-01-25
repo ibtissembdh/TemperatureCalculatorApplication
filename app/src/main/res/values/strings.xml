@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name"> Temperature Calculator Application </string>
+    <string name="veuillez_choisir_l_unit_de_mesure">veuillez choisir l’unité de mesure.</string>
+    <string name="celsius">CELSIUS</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="temperateur_image">temperateur image</string>
+    <string name="convertire">Convertire</string>
+    <string name="temp_rateur_en_kelvin">Températeur en Kelvin</string>
+    <string name="resultat">Resultat</string>
+    <string name="temp_rateur_en_celsius">températeur en Celsius</string>
+    <string name="entrez_une_valeur">Entrez une valeur</string>
+    <string name="celsius2">Celsius</string>
+
+
+</resources>

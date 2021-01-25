@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputValue"
+        android:hint="Entrez une valeur"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="50px"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/convertire"
+        android:id="@+id/conBtn"
+        android:onClick="convert"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_rateur_en_kelvin"
+        android:gravity="center"
+        android:textSize="50px" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="resultat"
+        android:gravity="center"
+        android:textSize="50px"
+        android:id="@+id/kelvinValue"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Températeur en Celsius"
+        android:gravity="center"
+        android:textSize="50px" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="resultat"
+        android:gravity="center"
+        android:textSize="50px"
+        android:id="@+id/CelsiusValue"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image"/>
+
+
+</LinearLayout>
